@@ -19,9 +19,9 @@
     },
     "dependencies":
     {
-        "logging": "*",
-        "xml2js": "*",
-        "request": "*"
+        "logging": "~2",
+        "xml2js": "~0.2.8",
+        "request": "~2"
 
     },
     "main": "lib/jobvite.js",
