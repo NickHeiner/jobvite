@@ -1,33 +1,34 @@
 {
-    "name": "jobvite",
-    "version": "0.2.4",
-    "description": "Access job listings and reports from Jobvite.",
-    "homepage": "http://github.com/dylang/jobvite",
-    "author": "Dylan Greene <dylang@gmail.com>",
-    "contributors": [
-        "Dylan Greene <dylang@gmail.com>"
-    ],
-    "repository":
+  "name": "jobvite",
+  "version": "0.2.4",
+  "description": "Access job listings and reports from Jobvite.",
+  "homepage": "http://github.com/dylang/jobvite",
+  "author": "Dylan Greene <dylang@gmail.com>",
+  "contributors": [
+    "Dylan Greene <dylang@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dylang/jobvite"
+  },
+  "bugs": {
+    "mail": "dylang@gmail.com",
+    "url": "http://github.com/dylang/jobvite/issues"
+  },
+  "dependencies": {
+    "logging": "~2",
+    "xml2js": "~0.2.8",
+    "request": "~2",
+    "q": "~0.9.7"
+  },
+  "main": "lib/jobvite.js",
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "licenses": [
     {
-        "type": "git",
-        "url": "http://github.com/dylang/jobvite"
-    },
-    "bugs":
-    {
-        "mail": "dylang@gmail.com",
-        "url": "http://github.com/dylang/jobvite/issues"
-    },
-    "dependencies":
-    {
-        "logging": "~2",
-        "xml2js": "~0.2.8",
-        "request": "~2"
-
-    },
-    "main": "lib/jobvite.js",
-    "engines": { "node": ">=0.4.0" },
-    "licenses" :
-    [
-        { "type" : "MIT", "url" : "http://github.com/isaacs/npm/raw/master/LICENSE" }
-    ]
+      "type": "MIT",
+      "url": "http://github.com/isaacs/npm/raw/master/LICENSE"
+    }
+  ]
 }
