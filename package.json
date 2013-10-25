@@ -25,7 +25,9 @@
     "logging": "*",
     "xml2js": "*",
     "request": "*",
-    "q": "~0.9.7"
+    "q": "~0.9.7",
+    "lodash": "~2.2.1",
+    "cheerio": "~0.12.3"
   },
   "main": "lib/jobvite.js",
   "engines": {
